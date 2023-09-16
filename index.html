@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANGUAGE-TRANSLATION-MVP-SPECIFICATION_WEATHER_WEBAPP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/840b950622.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation -->
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <a href="login.html" class="btn">Log In</a>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- Introduction -->
+        <div class="intro">
+            <div class="name">
+                <h1>Weather Translation</h1>
+                <p> Ensuring weather awareness in all diverse languages </p>
+            </div>
+            <div class="image">
+                <img src="/images/Translate1.jpg" alt="/images/website.jpg">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Feature section -->
+        <section id="features">
+            <h1>Features</h1>
+            <!-- Feature 1 -->
+            <div class="feature">
+                <img src="/images/weather.jpg">
+                <h2>Weather Forecasting</h2>
+                <p>Predicting atmospheric conditions, providing invaluable information for planning daily activities and making critical decisions.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature">
+                <img src="/images/langugaes.jpg">
+                <h2>Language Translation</h2>
+                <p>>Easily translate text from one language to another with our advanced translation algorithms.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature">
+                <img src="/images/location.jpg">
+                <h2>Location Detection</h2>
+                <p>When location is enabled, our web app can automatically detect the location and and ouput weather information of the area.</p>
+            </div>
+        </section>
+        <h1>About</h1>
+        <section id="about">
+            <div class="about-story">
+                <h2>Where it all began</h2>
+                <!-- Add this inside the "about-story" div -->
+                <p><span id="intro">The inspiration for the weather forecasting project, which we excited to present as a Portfolio Project for Holberton School, stems from a simple, yet impactful local experience.</span>
+                    <span class="read-more" onclick="toggleVisibility('intro', 'additional-paragraphs')">Read
+                        more...</span>
+                </p>
+                <br>
+                <div class="additional-paragraphs">
+                    <!-- Additional paragraphs go here -->
+                    <p>Living in a diverse community where multiple languages are spoken, we often noticed that some residents, particularly those who were not fluent in the local language, struggled to access crucial weather information. One incident where a neighbor, who primarily spoke French, was caught off guard by a sudden rainstorm because they couldn't understand the local weather forecast.</p>
+                    <br>
+                    <p>This incident struck a chord with me, and we realized that there was a genuine need for a weather forecasting tool that could bridge this language gap. It was a moment of clarity that inspired me to develop a weather forecasting application that not only delivers accurate predictions but also translates them into multiple languages, ensuring that everyone in our diverse community can stay informed about the weather.</p>
+                    <br>
+                    <p>As a team, we  dedicated ourselves to learning the necessary skills and working on this project, turning a local observation into a solution that benefits my community and beyond. It's not just a project for school; it's a contribution that aims to make a positive impact on people's everyday lives, helping them plan their day with ease, regardless of the language they speak.</p>
+
+                </div>
+            </div>
+            <br>
+
+            <div class="get">
+                <button><a href="login.html">Get Started</a> </button>
+            </div>
+            <div class="links">
+                <h3>Connect with our team members</h3>
+                <div class="members">
+                    <div class="individual">
+                        <h4>Festus Maithya</h4>
+                        <ul>
+                            <li><a href="https://github.com/festusmaithyakcau">
+                                <i class="fa-brands fa-github"></i>Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/festus-maithya-728912243">
+                                <i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+                            <li><a href="https://twitter.com/FestusMaithya3">
+                                <i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="individual">
+                        <h4>Marion Oketcha</h4>
+                        <ul>
+                            <li><a href="">
+                                <i class="fa-brands fa-github"></i>Github</a></li>
+                            <li><a href="">
+                                <i class="fa-brands fa-linkedin"></i>Linked In</a></li>
+                            <li><a href="">
+                                <i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="individual">
+                        <h4>Lydiah Kiboi</h4>
+                        <ul>
+                            <li><a href="https://github.com/Lydiah6470">
+                                <i class="fa-brands fa-github"></i>Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/lydiah-njambi-6b3832250/">
+                                <i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+                            <li><a href="https://www.linkedin.com/in/lydiah-njambi-6b3832250/">
+                                <i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="git">
+                    <a href="https://github.com/festusmaithyakcau/LANGUAGE-TRANSLATION-MVP-SPECIFICATION">
+                        <i class="fa-brands fa-github"></i>Github Repository</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        let additionalParagraphsVisible = false;
+
+        function toggleVisibility() {
+            const additionalParagraphs = document.querySelectorAll('.additional-paragraphs');
+            additionalParagraphsVisible = !additionalParagraphsVisible;
+
+            additionalParagraphs.forEach(paragraph => {
+                paragraph.style.display = additionalParagraphsVisible ? 'block' : 'none';
+            });
+        }
+    </script>
+</body>
+
+</html>

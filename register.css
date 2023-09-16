@@ -1,0 +1,77 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300&display=swap');
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Raleway",sans-serif;
+    background-image: url(backgound1.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container
+{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.label
+{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #130f40;
+}
+
+.login_form
+{
+    padding: 20px 40px;
+}
+
+.login_form .font
+{
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0;
+}
+
+.login_form input
+{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgb(33, 100, 107);
+}
+
+.login_form input:hover
+{
+    color: lightblue;
+}
+
+glass{
+    background-color: rgba(255, 255, 255, 0.433);
+    border-radius: 15px;
+    max-width: 400px;
+    display: flex;
+    max-height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    box-shadow: inset;
+}
