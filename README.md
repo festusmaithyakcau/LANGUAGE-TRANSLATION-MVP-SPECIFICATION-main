@@ -43,7 +43,7 @@
 ## Authors :
 
 
-* **Marion Christine** [Marion Oketcha](https://github.com/MARIONCHRISTINE) **->Project Manager**
-* **Festus Maithya** [festusmaithyakcau](https://github.com/festusmaithyakcau) **-> Lead Developer**
+* **Marion Christine** [Marion Oketcha](https://github.com/MARIONCHRISTINE) **{..Project Manager..}**
+* **Festus Maithya** [festusmaithyakcau](https://github.com/festusmaithyakcau) **{..Lead Developer..}**
 
-* **Lydia Kiboi** [Lydiah Njambi](https://github.com/Lydiah6470) **->FrontEnd Lead**
+* **Lydia Kiboi** [Lydiah Njambi](https://github.com/Lydiah6470) **{..FrontEnd Lead..}**
